@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: rgb(244, 234, 229);
+  color: rgb(27, 27, 27);
+}
+
+header,
+.dec {
+  width: 90%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+h2 {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 3px solid rgb(37, 53, 41);
+}
+
+img .logo {
+  max-width: 120px;
+}
+
+a {
+  color: rgb(37, 53, 41);
+}
+
+a:hover {
+  color: green;
+}
+
+td {
+  width: 800px;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(37, 53, 41);
+  color: rgb(219, 188, 169);
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 5px;
+}
+
+footer a {
+  color: rgb(219, 188, 169);
+  line-height: 26px;
+}
+
+footer a:hover {
+  color: rgb(244, 234, 229);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro {
+  border-bottom: 3px solid rgb(37, 53, 41);
+  max-width: 925px;
+}
+
+.headshot {
+  max-width: 250px;
+  padding: 20px 15px 10px 15px;
+  background-color: rgb(244, 234, 229);
+}
+
+.logo {
+  width: 120px;
+}
+
+.skills {
+  border-bottom: none;
+}
