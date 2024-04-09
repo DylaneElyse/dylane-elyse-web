@@ -74,10 +74,12 @@ footer a:hover {
   background-color: rgb(244, 234, 229);
 }
 
-.logo {
-  width: 120px;
-}
-
 .skills {
   border-bottom: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
 }
