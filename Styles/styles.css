@@ -13,27 +13,6 @@ main {
   margin: 0 auto;
 }
 
-.where img {
-  max-width: 200px;
-}
-
-.where-container {
-  display: grid;
-  grid-template-columns: auto 250px 250px auto;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.where-container :first-child {
-  grid-column: 2;
-  place-self: center;
-}
-
-.where-container :last-child {
-  grid-column: 3;
-  place-self: center;
-}
-
 header a {
   text-decoration: none;
   font-size: 20px;
@@ -43,12 +22,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* width: 400px; */
-}
-
-.skills li::before {
-  content: "-";
-  padding-right: 8px;
+  width: 200px;
 }
 
 nav {
@@ -92,10 +66,10 @@ a:hover {
   color: #c58882;
 }
 
-/* .table-layout td {
+td {
   width: 800px;
   padding: 5px;
-} */
+}
 
 footer {
   background-color: #77867f;
@@ -143,34 +117,4 @@ footer img {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  justify-content: space-between;
-  width: 1110px;
-}
-
-#form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  padding: 15px 0 50px 0;
-}
-
-#form-container div {
-  display: flex;
-  padding-bottom: 10px;
-}
-
-#form-container label,
-#form-container button {
-  width: 75px;
-}
-
-#form-container input,
-#form-container textarea {
-  width: 425px;
-}
-
-#form-container button {
-  padding: 3px;
-  margin-left: 75px;
 }
