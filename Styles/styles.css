@@ -8,9 +8,14 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-main {
+main,
+header {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+main {
+  min-height: 75vh;
 }
 
 header a {
@@ -19,15 +24,87 @@ header a {
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 10px;
   width: 200px;
+}
+
+header ul {
+  list-style-type: none;
 }
 
 nav {
   padding-right: 0;
   text-align: right;
+}
+
+h2 {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 3px solid #77867f;
+}
+
+a {
+  color: #77867f;
+}
+
+a:hover {
+  color: #c58882;
+}
+
+td {
+  width: 800px;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-top: 5px;
+}
+
+form :last-child {
+  margin-top: 5px;
+}
+
+textarea,
+input {
+  width: 392.8px;
+}
+
+button {
+  width: 400px;
+}
+
+footer {
+  background-color: #77867f;
+  color: #fff9f9;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.contact p {
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.projects p {
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
 }
 
 .home-main {
@@ -52,36 +129,6 @@ nav {
   color: #2d2d2d;
 }
 
-h2 {
-  width: 100%;
-  border-collapse: collapse;
-  border-bottom: 3px solid #77867f;
-}
-
-a {
-  color: #77867f;
-}
-
-a:hover {
-  color: #c58882;
-}
-
-td {
-  width: 800px;
-  padding: 5px;
-}
-
-footer {
-  background-color: #77867f;
-  color: #fff9f9;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-}
-
-footer img {
-  width: 100px;
-}
-
 .header-flex-container {
   display: flex;
   justify-content: space-between;
@@ -90,7 +137,8 @@ footer img {
 }
 
 .dec {
-  width: 600px;
+  min-width: 600px;
+  max-width: 800px;
 }
 
 .flex-container {
@@ -109,10 +157,24 @@ footer img {
   background-color: #fff9f9;
 }
 
-.skills {
+.skills .languages {
   border-bottom: none;
 }
 
+.dual-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dual-flex :first-child {
+  min-width: 400px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
